@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="Container">
+        <h1>Create Center</h1>
+        <form id="registrationForm">
+
+            <div class="column-container">
+                <div class="column">
+                    
+                        <input type="text" class="userInp" id="centerNumber" placeholder="center Number" name="centerNumber" required>
+
+
+
+                        <input type="text" id="phoneNumber"  class="userInp" placeholder="Phone Number" name="phoneNumber" required>
+
+
+                   
+                        <select id="cityRegion" name="cityRegion" class="userInp" required>
+                            <option value="">Select Region</option>
+                            <option value="India">India</option>
+                            <option value="Nepal">Nepal</option>
+                            <option value="Bhutan">Bhutan</option>
+                            <!-- Add options here -->
+                        </select>
+                   
+                    
+
+
+                        <select id="ownership" name="ownership"  class="userInp" required>
+                            <option value="">Ownership</option>
+                            <option value="">Ownership 1</option>
+                            <option value="">Ownership 2</option>
+                            <option value="">Ownership 3</option>
+                            <!-- Add options here -->
+                        </select>
+
+
+                        <select id="accreditation" name="accreditation"  class="userInp" required>
+                            <option value="">Select Accreditation Body</option>
+                            <option value="">Option 1</option>
+                            <option value="">Option 2</option>
+                            <option value="">Option 3</option>
+                            <!-- Add options here -->
+                        </select>
+
+
+
+                        <select id="numberPhysicians" name="numberPhysicians"  class="userInp"  required>
+                            <option value="">Select Number of Physicians</option>
+                            <option value="">Option 1</option>
+                            <option value="">Option 2</option>
+                            <option value="">Option 3</option>
+                            <!-- Add options here -->
+                        </select>
+
+
+                        <select id="ownership" name="ownership"  class="userInp" required>
+                            <option value="">Ownership</option>
+                            <option value="">Ownership 1</option>
+                            <option value="">Ownership 2</option>
+                            <option value="">Ownership 3</option>
+                            <!-- Add options here -->
+                        </select>
+                </div>
+
+                <div class="column">
+
+                        <input type="text" placeholder="Center Name" id="centerName" name="centerName"  class="userInp"  required>
+
+
+                        <input type="text"  placeholder="Address 1" id="address1"  class="userInp" name="address1" required>
+
+
+
+                        <select id="state" name="state"  class="userInp"  required>
+                            <option value="">Select State</option>
+                            <option value="">Karnataka</option>
+                            <option value="">Tamilnadu</option>
+                            <option value="">Odisha</option>
+                            <!-- Add options here -->
+                        </select>
+
+
+
+                        <select id="timezone" name="timezone"  class="userInp" required>
+                            <option value="">Select Timezone</option>
+                            <!-- Add options here -->
+                        </select>
+
+
+
+                        <select id="management" name="management"  class="userInp" required>
+                            <option value="">Select Management</option>
+                            <option value="">Select Management</option>
+                            <option value="">Select Management</option>
+                            <option value="">Select Management</option>
+                            <!-- Add options here -->
+                        </select>
+
+
+
+                        <select id="ascSize" name="ascSize"  class="userInp" required>
+                            <option value="">Select ASC Size</option>
+                            <option value="">Select ASC Size</option>
+                            <option value="">Select ASC Size</option>
+                            <option value="">Select ASC Size</option>
+                            <!-- Add options here -->
+                        </select>
+
+
+
+                        <select id="timeOutPeriod" name="timeOutPeriod"  class="userInp"  required>
+                            <option value="">Select Time Out Period</option>
+                            <option value="">Select Time Out Period</option>
+                            <!-- Add options here -->
+                        </select>
+
+                    
+                </div>
+
+                <div class="column">
+
+                        <input type="text"  placeholder="Nick Name" class="userInp" id="nickName" name="nickName">
+
+
+
+                        <input type="text" placeholder="Address 2" id="address2"  class="userInp"  name="address2">
+
+
+
+                        <input type="text" placeholder="ZIP" id="zip" class="userInp"  name="zip" required>
+
+
+
+                        <select id="centerSpecialty" name="centerSpecialty"  class="userInp"  required>
+                            <option value="">Select Center Specialty</option>
+                            <option value="">Select Center Specialty</option>
+                            <option value="">Select Center Specialty</option>
+                            <option value="">Select Center Specialty</option>
+                            <option value="">Select Center Specialty</option>
+                            <!-- Add options here -->
+                        </select>
+
+
+
+                        <select id="type" name="type"  class="userInp"  class="userInp" required>
+                            <option value="">Select Type</option>
+                            <option value="">Select Type</option>
+                            <option value="">Select Type</option>
+                            <option value="">Select Type</option>
+
+                            <!-- Add options here -->
+                        </select>
+
+
+                        <select id="operatingRooms" name="operatingRooms"  class="userInp"  required>
+                            <option value="">Number of Procedure Rooms</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <!-- Add options here -->
+                        </select>
+                        <input type="text" placeholder="CCN" id="ccn"  class="userInp"  name="ccn" required>
+
+                </div>
+            </div>
+
+   <!-- threeCols ends-->
+   <div class="row1">
+    <label for="healthSystemAffiliation">Health System Affiliation</label>
+    <input type="text" id="healthSystemAffiliation" name="healthSystemAffiliation" required>
+
+    <label for="ehrSystem">EHR System</label>
+    <input type="text" id="ehrSystem" name="ehrSystem" required>
+
+    <label for="rcmSystem">RCM System</label>
+    <input type="text" id="rcmSystem" name="rcmSystem" required>
+
+    <label for="loginAttempts">Login Attempts</label>
+    <select id="loginAttempts" name="loginAttempts" required>
+        <option value="">Select Login Attempts</option>
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+        <!-- Add options here -->
+    </select>
+</div>
+
+            
+
+<div class="row1">
+    <label for="isCorporate">Is Corporate?</label>
+    <input type="checkbox" id="isCorporate" name="isCorporate">
+
+    <label for="processAlert">Process Alert?</label>
+    <input type="checkbox" id="processAlert" name="processAlert">
+
+    <label for="isClient">Is Client?</label>
+    <input type="checkbox" id="isClient" name="isClient">
+
+    <label for="isActive">Is Active?</label>
+    <input type="checkbox" id="isActive" name="isActive">
+
+    <label for="isBiEnabled">Is BI Enabled?</label>
+    <input type="checkbox" id="isBiEnabled" name="isBiEnabled">
+
+    <label for="surgicalCasesStart">Surgical Cases Start</label>
+    <input type="date" id="surgicalCasesStart" style="width: 200px;" name="surgicalCasesStart" required>
+
+</div>
+
+
+<h2>Logs</h2>
+<div class="row">
+       
+        <label for="showPicture">Show Picture?</label>
+        <input type="checkbox" id="showPicture" name="showPicture">
+
+        <label for="attachment">Attachment?</label>
+        <input type="checkbox" id="attachment" name="attachment">
+    
+</div>
+<h2> Survey</h2>
+<div class="row">
+        
+    <label for="surveySchedule">Survey Schedule</label>
+    <input type="checkbox" id="surveySchedule" name="surveySchedule">
+    <label for="surveyEmail">Survey Email</label>
+    <input type="checkbox" id="surveyEmail" name="surveyEmail">
+</div>     
+     <button type="submit">Submit</button>
+  
+        </form>
+        <script src="./index.js"></script>
+    </div>
+</body>
+</html>
